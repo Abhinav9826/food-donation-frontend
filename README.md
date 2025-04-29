@@ -4,7 +4,7 @@ This is the frontend for the Milan Food Donation Platform, a web application tha
 
 ## 🌐 Live Demo
 
-[Visit the Live Site](https://your-frontend-domain.vercel.app)
+[Visit the Live Site](food-donation-frontend-navy.vercel.app)
 
 ## 🚀 Features
 
