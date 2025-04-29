@@ -4,7 +4,7 @@ function DonationsList() {
   const [donations, setDonations] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/donations')
+    fetch(`${process.env.REACT_APP_API_URL}/donations`)
       .then(res => res.json())
       .then(data => setDonations(data))
       .catch(err => console.error('Error fetching donations:', err));
